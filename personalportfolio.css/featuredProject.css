@@ -1,0 +1,141 @@
+.all_featured_Project {
+  border-bottom: 2px solid #ddd;
+}
+
+.featured-project {
+  /* display: flex; */
+  /* flex-direction: row; Side-by-side layout */
+  gap: 20px; /* Space between the two sections */
+  align-items: center; /* Aligns items vertically */
+  padding: 5%;
+
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.featured-project_info {
+  display: flex;
+  justify-content: space-between;
+ 
+  gap: 30px; 
+  align-items: center; /* Aligns items vertically */
+  /* padding: 40px; */
+
+}
+
+.featured-project h1, p {
+  color: white;
+}
+
+.project-info {
+  flex: 1; /* Take up equal space */
+  line-height: 3;
+  color: white;
+  max-width: 40%;
+}
+
+.project-info h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.project-info h2, h3, h4, h5 {
+  border-bottom: 0.5px solid #ddd;
+  display: flex; /* Enable Flexbox */
+  justify-content: space-between; /* Push items to edges (left and right) */
+  align-items: center; /* Center vertically */
+  
+}
+
+
+.project-info p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+ /* .view-project {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007BFF;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+} */
+
+ /* .view-project:hover {
+  background-color: #0056b3;
+} */
+
+
+
+.project-image_Container {
+  max-width: 40%;
+  /* height: auto; */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for the image */
+  background-color: rgb(66, 62, 62);
+  text-align: center; /* Center the image */
+  height: 35em;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+ 
+}
+
+.project-image_Container:hover {
+  background-color: grey;
+  transform: scale(1.05); /* Expand slightly */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for effect */
+  cursor: pointer;
+}
+
+
+.project-image {
+  flex: 1; /* Take up equal space */
+  text-align: center; /* Center the image */
+}
+
+.project-image img {
+  max-width: 50%;
+  height: 50%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for the image */
+  padding: 10%;
+}
+
+.live_demo {
+  text-decoration: underline;
+  color: aquamarine;
+  padding: 5%;
+  line-height: 2em;
+  font-size: 1.3em;
+}
+
+.live_demo::after {
+  content: "↗"; /* North-east arrow */
+}
+.see_on_github {
+  display: inline-block; /* Keep all elements inline */
+  text-decoration: underline; /* Apply underline to the entire content */
+  text-decoration-thickness: 2px; /* Optional: Adjust underline thickness */
+  text-decoration-color: aquamarine; /* Optional: Set underline color */
+  color: aquamarine; /* Text and icon color */
+  font-size: 1.3em; /* Font size for all elements */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+.see_on_github i {
+  margin-left: 5px; /* Space between text and GitHub icon */
+}
+
+
+
+
+
+
+

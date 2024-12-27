@@ -1,0 +1,131 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  /* height: 100vh; */
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20%;
+  border-bottom: 2px solid #ddd;
+  /* display: flex; */
+ 
+  align-items: flex-start; /* Align items vertically at the top */
+  
+}
+
+
+.email, .resume {
+  border-bottom: 0.5px solid aquamarine;
+  padding: 5px 5px; /* Creates a content area */
+  background-color: transparent; /* Ensure no initial background */
+  display: inline-block; /* Makes background visible */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth effects */
+}
+
+.email:hover {
+  cursor: pointer;
+  background-color: aquamarine; /* Visible background on hover */
+  transform: scale(1.05); /* Optional zoom effect */
+}
+
+
+.email:active {
+  cursor: pointer;
+  transform: scaleX(1.1);
+}
+
+.resume:hover {
+  cursor: pointer;
+  background-color: aquamarine; /* Visible background on hover */
+  transform: scale(1.05); /* Optional zoom effect */
+}
+
+.resume:active {
+  cursor: pointer;
+  transform: scaleX(1.1);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.contact_socials {
+  /* width: 20px;
+  height: 20px; */
+  font-size: 48px;
+  color: aquamarine;
+  padding-top: 10%;
+  cursor: pointer;
+}
+
+.fa:hover {
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth effects */
+  transform: scale(1.2); /* Optional zoom effect */
+}
+
+.fa:active {
+  cursor: pointer;
+  transform: scaleX(1.1);
+}
+
+
+
+
+
+
+
+
+
+.user-form {
+  width: 500px;
+  max-width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between form elements */
+  font-family: Arial, sans-serif;
+}
+
+.user-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.user-form input,
+.user-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.user-form input:focus,
+.user-form textarea:focus {
+  border-color: aquamarine;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.1);
+}
+
+.user-form button {
+  padding: 10px 20px;
+  background-color: rgb(35, 141, 105);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.user-form button:hover {
+  background-color: rgb(14, 65, 48);
+}
+
+

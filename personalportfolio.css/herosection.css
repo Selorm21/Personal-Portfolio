@@ -1,0 +1,178 @@
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  height: 150vh;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid #ddd;
+}
+
+.hero-content {
+  max-width: 100%;
+
+  
+}
+
+.hero-content h1 {
+  font-family: 'Lobster';
+  font-weight: bolder;
+  line-height: 10%;
+  font-size: 3em;
+  margin-bottom: 10%;
+  color: white;
+  line-height: 1; /* Increase vertical space */
+  transform: scaleY(1.5); /* Stretch vertically */
+}
+
+.middot {
+  font-size: 2em; /* Increase size */
+      color: #f00; /* Set color to red */
+      font-weight: bold; /* Make it bold */
+      text-align: center;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* /* 
+/* .hero-content .buttons {
+  display: flex;
+  gap: 15px;
+} */
+/* 
+.hero-content .buttons a {
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #007BFF;
+  transition: background-color 0.3s;
+} */
+
+/* .hero-content .buttons a:hover {
+  background-color: #0056b3;
+}
+
+.hero-content .buttons a.secondary {
+  background-color: #6c757d;
+}
+
+.hero-content .buttons a.secondary:hover {
+  background-color: #5a6268;
+} */  
+
+.hero-image img {
+  max-width: 100%;
+  height: 120VH;
+  border-radius: 10px;
+}
+
+
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.buttons a {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px; /* Adjust spacing between text and dot/arrow */
+  padding: 12px 24px;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden; /* Ensure the dot stays inside the button */
+}
+
+.buttons a.primary {
+  background-color: #4E9F3D;
+  color: black;
+  border: 2px solid #4E9F3D;
+}
+
+.buttons a.primary:hover {
+  background-color: #0056b3;
+  color: black;
+  border-color: #0056b3;
+}
+
+.buttons a.secondary {
+  background-color: #0056b3;
+  color: black;
+  border: 2px solid #0056b3;
+}
+
+.buttons a.secondary:hover {
+  background-color: #4E9F3D;
+  color: black;
+  border-color: #4E9F3D;
+}
+
+/* Dot Styling */
+.buttons a::after {
+  content: "";
+  width: 10px; /* Initial size of the dot */
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  transition: all 0.4s ease; /* Smooth transition for expansion */
+  position: relative; /* Keep the dot aligned with text */
+  flex-shrink: 0; /* Prevent shrinking of the dot */
+}
+
+/* Expanded Dot with Arrow */
+.buttons a:hover::after {
+  content: "↗"; /* North-east arrow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px; /* Arrow size */
+  color: white;
+  background-color: black;
+  width: 40px; /* Expanded dot size */
+  height: 40px;
+  border-radius: 50%;
+  transition: all 0.4s ease; /* Smooth transition for the arrow appearance */
+}
+
+
+.circle-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black; /* Ash color */
+  border-radius: 50%; /* Make the background circular */
+  padding: 10px; /* Space around the icon, adjust as needed */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

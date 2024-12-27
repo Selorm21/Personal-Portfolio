@@ -1,0 +1,60 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20%;
+  border-bottom: 2px solid #ddd;
+}
+
+
+
+.about h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 1; /* Increase vertical space */
+  transform: scaleY(1.5); /* Stretch vertically */
+}
+
+
+.about h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 1; /* Increase vertical space */
+  transform: scaleY(1.5); /* Stretch vertically */
+}
+
+
+
+
+.about P {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  color: white;
+  line-height: 1; /* Increase vertical space */
+  transform: scaleY(1.5); /* Stretch vertically */
+}
+
+.about span {
+  display: inline-block; /* Keep all elements inline */
+  text-decoration: underline; /* Apply underline to the entire content */
+  text-decoration-thickness: 2px; /* Optional: Adjust underline thickness */
+  text-decoration-color: aquamarine; /* Optional: Set underline color */
+  color: aquamarine; /* Text and icon color */
+  font-size: 1.3em; /* Font size for all elements */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+
+
+
